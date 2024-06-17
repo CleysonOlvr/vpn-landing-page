@@ -4,7 +4,7 @@ import logo from "../../public/logo.svg";
 export default function Header() {
   return (
     <header>
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between items-center">
         <Image src={logo} alt="SmartVPN Logo" width={146} height={36} />
         <div className="font-normal text-base text-gray-600 flex flex-row space-between gap-10">
           <a href="/">About</a>
